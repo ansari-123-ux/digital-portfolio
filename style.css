@@ -1,0 +1,97 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Input and Button Styles */
+.input-container {
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"] {
+  flex: 2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Task List Styles */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+
+/* Priority Colors */
+.low-priority {
+  background-color: #ccffcc; /* Light green */
+}
+
+.medium-priority {
+  background-color: #ffffcc; /* Light yellow */
+}
+
+.high-priority {
+  background-color: #ffcccc; /* Light red */
+}
+
+/* Completed Task Style */
+.completed {
+  text-decoration: line-through;
+  color: gray !important; /* Override priority colors */
+}
+
+/.delete-button {
+  background-color: #ff4d4d; /* Red delete button */
+  color: white;
+  border-radius: 4px;
+}
+.delete-button:hover {
+  background-color: #cc0000; /* Darker red */
+}
